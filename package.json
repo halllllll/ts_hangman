@@ -1,0 +1,22 @@
+{
+  "name": "ts_hangman",
+  "module": "index.ts",
+  "devDependencies": {
+    "@biomejs/biome": "1.6.3",
+    "@tsconfig/node20": "^20.1.4",
+    "@types/figlet": "^1.5.8",
+    "bun-types": "latest",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "start": "tsc && bun dist/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "chalk": "4.1.2",
+    "figlet": "1.6.0"
+  }
+}
